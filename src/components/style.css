@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow: hidden;
+}
+.background {
+  background: url('https://images.pexels.com/photos/3253498/pexels-photo-3253498.jpeg?cs=srgb&dl=pexels-cesar-gale%C3%A3o-3253498.jpg&fm=jpg') no-repeat center top;
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0.5;
+}
+.background:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0.5;
+}
+.card {
+  margin: 70px auto 200px;
+  width: 500px;
+  height: 500px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
+}
+.cover-bg {
+  width: 100%;
+  height: 180px;
+  background: #b4e2d6;
+  background: url('https://images.pexels.com/photos/3757934/pexels-photo-3757934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center;
+  background-size: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.user-info {
+  padding-left: 18px;
+
+}
+.user-info-wrap {
+  margin-top: -40px;
+  display: flex;
+  padding: 0 20px;
+}
+.user-name {
+  font-size: 25px;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.user-title {
+  font-size: 30px;
+  font-weight: 900;
+  color: #8b8784;
+  display: block;
+  margin-top: 10px;
+}
+.user-photo img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+.user-bio {
+  padding: 20px;
+}
+
+.user-bio h3 {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.user-bio p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.social {
+  display: flex;
+  justify-content: space-between;
+}
+.social-icons {
+  display: flex;
+}
+.social a {
+  display: block;
+  height: 20px;
+  color: #a9a9a8;
+  margin-right: 13px;
+  transition: all 0.3s ease-in-out 0s;
+}
+.social a:hover {
+  color: #47a398;
+}
+.social .message a {
+  margin: 0;
+}
